@@ -1,13 +1,10 @@
 import './App.css';
+import {Recherche} from './Element';// Appel de la fonction recherche dans le fichier Elements
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          COUCOU CHOUPIIIII D'AMOUR ❤️❤️❤️
-        </p>
-      </header>
+      <Recherche/>
     </div>
   );
 }
